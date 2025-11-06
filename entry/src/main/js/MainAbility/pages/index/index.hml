@@ -1,0 +1,53 @@
+<swiper class="container" index="{{index}}" indicator="true">
+
+                <div class="swiper-item" >
+                    <stack class="stack-parent">
+                        <progress type="arc" class="min-progress" percent="{{this.timeList[0].percent}}" on:click="changeArc"></progress>
+                        <div class="time"  onclick="goTimerScreen(this.timeList[0].timeAmount)">
+                            <text class="time-amount"> {{this.timeList[0].timeAmount}} </text>
+                            <text class="time-type"> min </text>
+                        </div>
+                    </stack>
+                </div>
+
+                <div class="swiper-item">
+                    <stack class="stack-parent">
+                        <progress type="arc" class="min-progress" percent="{{this.timeList[1].percent}}" on:click="changeArc"></progress>
+                        <div class="time" onclick="goTimerScreen(this.timeList[1].timeAmount)">
+                            <text class="time-amount"> {{this.timeList[1].timeAmount}} </text>
+                            <text class="time-type"> min </text>
+                        </div>
+                    </stack>
+                </div>
+
+                <div class="swiper-item">
+                    <stack class="stack-parent">
+                        <progress type="arc" class="min-progress" percent="{{this.timeList[2].percent}}" on:click="changeArc"></progress>
+                        <div class="time" onclick="goTimerScreen(this.timeList[2].timeAmount)">
+                            <text class="time-amount"> {{this.timeList[2].timeAmount}} </text>
+                            <text class="time-type"> min </text>
+                        </div>
+                    </stack>
+                </div>
+
+                <div class="swiper-item">
+                    <stack class="stack-parent">
+                        <progress type="arc" class="min-progress" percent="{{this.timeList[3].percent}}" on:click="changeArc"></progress>
+                        <div class="time" onclick="goTimerScreen(this.timeList[3].timeAmount)">
+                            <text class="time-amount"> {{this.timeList[3].timeAmount}} </text>
+                            <text class="time-type"> min </text>
+                        </div>
+                    </stack>
+                </div>
+
+                <div class="swiper-item">
+                    <stack class="stack-parent">
+                        <progress type="arc" class="min-progress" percent="{{this.timeList[4].percent}}" on:click="changeArc"></progress>
+                        <div class="time" onclick="goTimerScreen(this.timeList[4].timeAmount)">
+                            <text class="time-amount"> {{this.timeList[4].timeAmount}} </text>
+                            <text class="time-type"> min </text>
+                        </div>
+                    </stack>
+                </div>
+
+</swiper>

@@ -1,0 +1,64 @@
+/* xxx.css */
+
+.swiper-item {
+  width: 454px;
+  height: 454px;
+  justify-content: center;
+  align-items: center;
+  background-color: #b0000000;
+
+}
+
+
+/* xxx.css */
+.container {
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+}
+.min-progress {
+  width: 300px;
+  height: 300px;
+  left: 77px;
+  top: 77px;
+  color: #e9488aff;
+
+}
+
+
+.stack-parent {
+  width: 454px;
+  height: 454px;
+  justify-content: center;
+  align-items: center;
+}
+
+.time {
+  width: 300px;
+  height: 300px;
+  color: #e9488aff;
+  font-size: 60px;
+  left: 77px;
+  top: 150px;
+  text-align: center;
+  flex-direction: column;
+}
+
+.time-amount {
+  width: 300px;
+  height: 60px;
+  color: #e9488aff;
+  font-size: 60px;
+  text-align: center;
+}
+
+.time-type{
+  width: 300px;
+  height: 60px;
+  color: #e9488aff;
+  font-size: 60px;
+  text-align: center;
+  margin-top: 18px;
+}
+
